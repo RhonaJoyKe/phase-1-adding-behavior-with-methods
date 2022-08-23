@@ -2,7 +2,7 @@ let cat, dog, bird, bird2;
 
 describe("cat", () => {
   beforeEach(() => {
-    cat = new Cat("Sasha", "female")
+   cat = new Cat("Sasha", "female") 
   })
 
   it("has a class of cat", () => {
